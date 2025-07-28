@@ -267,7 +267,7 @@ public interface HouseHostingConfig extends Config {
                 .withOverride(true)
                 .withTray(true)
                 .withTrayIconType(TrayIcon.MessageType.NONE)
-                .withRequestFocus(RequestFocusType.FORCE)
+                .withRequestFocus(RequestFocusType.OFF)
                 .withSound(NotificationSound.NATIVE)
                 .withSoundName(null)
                 .withVolume(75)
